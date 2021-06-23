@@ -1,4 +1,5 @@
-# Estudio de nutrientes disponibles para plantaciones de cacao
+# reto2
+# Los valores de entrada se ingresan uno a uno
 
 numero_lecturas = int(input())
 contador = 1
@@ -52,10 +53,8 @@ while contador <= numero_lecturas:
     else:
         no_apto += 1
 
-promedio_acidez = round(acumulado_acidez / numero_lecturas, 2)
-promedio_materia_organica = round(acumulado_materia_organica / numero_lecturas, 2)
-print(promedio_acidez)
-print(promedio_materia_organica)
+print("{:.2f}".format(acumulado_acidez / numero_lecturas))
+print("{:.2f}".format(acumulado_materia_organica / numero_lecturas))
 print("sumamente apto", sumamente_apto)
 print("moderadamente apto", moderadamente_apto)
 print("marginalmente apto", marginalmente_apto)

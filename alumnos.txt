@@ -1,0 +1,5 @@
+Manuel:Rodriguez:49:18:32
+Luisa:Miranda:68:44:99
+JeanPaul:Gaultier:48:38:81
+Esteban:Montenegro:54:54:50
+Carolina:Herrera:100:98:92
